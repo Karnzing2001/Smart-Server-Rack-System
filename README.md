@@ -27,6 +27,8 @@
 <li>DC-DC Step Down Module LM2596</li>
 <li>Adapter 12 VDC</li>
 <li>APC Smart-UPS SC 1000VA </li>
+<li>Air conditioner 12VDC Type</li>
+<li>Switching power supply 12V 120A</li>
 
 # ภาพรวมของระบบ
 ![Overall System](https://github.com/user-attachments/assets/6f49f413-cbf9-4dc2-9365-64dc2cd3f69d)
