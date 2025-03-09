@@ -14,5 +14,19 @@
 <li>สามารถสั่งปิด UPS ได้ เมื่อไฟดับและแบตเตอรี่ต่ำ และกลับมาเปิด UPS เมื่อไฟฟ้ากลับมา</li>
 <li>เมื่อไฟฟ้าดับ และไฟฟ้ากลับมา ระบบสามารถสั่งเปิดเครื่องปรับอากาศ และคืนค่าที่ตั้งไว้ได้</li>
 
+# อุปกรณ์ที่ใช้ในโครงการ
+<li>PZEM-004T</li>
+<li>ESP32S</li>
+<li>MQ-2 Smoke Sensor</li>
+<li>Solid State Relay 40A Tpye Input DC Output AC</li>
+<li>PN532 RFID/NFC Module</li>
+<li>Solenoid Electromagnetic Door Lock 12VDC</li>
+<li>DHT22 Sensor</li>
+<li>IR Transmitter infrared Module</li>
+<li>RS-232 TO TTL Module</li>
+<li>DC-DC Step Down Module LM2596</li>
+<li>Adapter 12 VDC</li>
+<li>APC Smart-UPS SC 1000VA </li>
+
 # ภาพรวมของระบบ
 ![Overall System](https://github.com/user-attachments/assets/6f49f413-cbf9-4dc2-9365-64dc2cd3f69d)
