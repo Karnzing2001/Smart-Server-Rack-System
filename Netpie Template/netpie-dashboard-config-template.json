@@ -1,0 +1,593 @@
+{
+	"version": 1,
+	"allow_edit": true,
+	"plugins": [],
+	"panes": [
+		{
+			"id": "d7z9wn",
+			"title": "Status UPS",
+			"width": 1,
+			"row": {
+				"2": 21,
+				"5": 1,
+				"6": 1,
+				"7": 1,
+				"8": 1
+			},
+			"col": {
+				"2": 1,
+				"5": 3,
+				"6": 1,
+				"7": 3,
+				"8": 3
+			},
+			"col_width": 2,
+			"widgets": [
+				{
+					"id": "qz27o7",
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "#[\"Rack-1\"][\"shadow\"][\"Statusups\"]",
+						"animate": true,
+						"id": "qz27o7"
+					}
+				}
+			]
+		},
+		{
+			"id": "liciue",
+			"title": "UPS",
+			"width": 1,
+			"row": {
+				"2": 25,
+				"3": 27,
+				"5": 1,
+				"6": 5,
+				"7": 1,
+				"8": 1
+			},
+			"col": {
+				"2": 1,
+				"3": 1,
+				"5": 1,
+				"6": 1,
+				"7": 1,
+				"8": 1
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "9ijk3j",
+					"type": "gauge",
+					"settings": {
+						"title": "Battery remaining",
+						"value": "#[\"Rack-1\"][\"shadow\"][\"Batt\"]",
+						"units": "%",
+						"min_value": 0,
+						"max_value": 100,
+						"decimal": 2,
+						"human_friendly": true,
+						"rangecolor": [
+							{
+								"from": "40",
+								"to": "100",
+								"color": "#81C784"
+							},
+							{
+								"from": "30",
+								"to": "20",
+								"color": "#FBC02D"
+							},
+							{
+								"from": "29",
+								"to": "0",
+								"color": "#D50000"
+							}
+						],
+						"rangeonpercent": false,
+						"id": "9ijk3j"
+					}
+				},
+				{
+					"id": "4hg0z1",
+					"type": "gauge",
+					"settings": {
+						"title": "Load",
+						"value": "#[\"Rack-1\"][\"shadow\"][\"Load\"]",
+						"units": "%",
+						"min_value": 0,
+						"max_value": 100,
+						"decimal": 2,
+						"human_friendly": true,
+						"rangeonpercent": true,
+						"id": "4hg0z1"
+					}
+				},
+				{
+					"id": "z1q2yb",
+					"type": "text_widget",
+					"settings": {
+						"title": "Estimated Runtime",
+						"size": "regular",
+						"value": "#[\"Rack-1\"][\"shadow\"][\"Estimated_runtime\"]",
+						"sparkline": false,
+						"animate": true,
+						"units": "Mins",
+						"id": "z1q2yb"
+					}
+				}
+			]
+		},
+		{
+			"id": "t8eb1c",
+			"title": "Temp&Human",
+			"width": 1,
+			"row": {
+				"2": 5,
+				"3": 1,
+				"4": 1,
+				"5": 13,
+				"6": 1,
+				"7": 1,
+				"8": 1
+			},
+			"col": {
+				"2": 1,
+				"3": 1,
+				"4": 1,
+				"5": 3,
+				"6": 4,
+				"7": 5,
+				"8": 5
+			},
+			"col_width": 2,
+			"widgets": [
+				{
+					"id": "5irdbv",
+					"type": "Chart",
+					"settings": {
+						"datasource": "#[\"Rack-1\"][\"feed\"]",
+						"filter": "t,h",
+						"query_range_duration": "1",
+						"query_range_unit": "minute",
+						"stricttimerange": false,
+						"mode": "normal",
+						"type": "line",
+						"yzero": true,
+						"marker": true,
+						"colors": "",
+						"totalyaxis": 1,
+						"height_block": 3,
+						"id": "5irdbv"
+					}
+				}
+			]
+		},
+		{
+			"id": "1wf90d",
+			"title": "Environment",
+			"width": 1,
+			"row": {
+				"2": 37,
+				"3": 17,
+				"4": 35,
+				"5": 1,
+				"6": 5,
+				"7": 1,
+				"8": 11,
+				"9": 11,
+				"13": 23
+			},
+			"col": {
+				"2": 1,
+				"3": 3,
+				"4": 2,
+				"5": 2,
+				"6": 2,
+				"7": 2,
+				"8": 2,
+				"9": 2
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "z73yy7",
+					"type": "gauge",
+					"settings": {
+						"title": "Temp",
+						"value": "#[\"Rack-1\"][\"shadow\"][\"t\"]",
+						"units": "°C",
+						"min_value": 0,
+						"max_value": 100,
+						"decimal": 2,
+						"human_friendly": true,
+						"rangeonpercent": false,
+						"id": "z73yy7"
+					}
+				},
+				{
+					"id": "syhwog",
+					"type": "gauge",
+					"settings": {
+						"title": "Humidity",
+						"value": "#[\"Rack-1\"][\"shadow\"][\"h\"]",
+						"units": "%",
+						"min_value": 0,
+						"max_value": 100,
+						"decimal": 0,
+						"human_friendly": true,
+						"rangeonpercent": false,
+						"id": "syhwog"
+					}
+				},
+				{
+					"id": "qdccyv",
+					"type": "gauge",
+					"settings": {
+						"title": "Smoke",
+						"value": "#[\"Rack-1\"][\"shadow\"][\"s\"]",
+						"units": "%",
+						"min_value": 0,
+						"max_value": 100,
+						"decimal": 2,
+						"human_friendly": true,
+						"rangeonpercent": false,
+						"id": "qdccyv"
+					}
+				}
+			]
+		},
+		{
+			"id": "gt7w1g",
+			"title": "AC Control",
+			"width": 1,
+			"row": {
+				"2": 47,
+				"3": 31,
+				"5": 5,
+				"6": 1,
+				"7": 5,
+				"8": 5,
+				"9": 5
+			},
+			"col": {
+				"2": 2,
+				"3": 2,
+				"5": 5,
+				"6": 3,
+				"7": 3,
+				"8": 4,
+				"9": 4
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "di2lwt",
+					"type": "indicator",
+					"settings": {
+						"oncolor": "#FFC773",
+						"offcolor": "#222222",
+						"value": "#[\"Rack-1\"][\"shadow\"][\"Ac_status\"]",
+						"blinking": "",
+						"blinkfrequency": "1",
+						"on_text": "ON",
+						"off_text": "OFF",
+						"id": "di2lwt"
+					}
+				},
+				{
+					"id": "bv46v4",
+					"type": "Slider",
+					"settings": {
+						"caption": "Temp Set",
+						"color": "blue",
+						"showvalue": 1,
+						"min": "3",
+						"max": "30",
+						"step": 1,
+						"sensitivity": 200,
+						"initialvalue": "0",
+						"autovaluesource": "#[\"Rack-1\"][\"shadow\"][\"Actemp\"]",
+						"onStop": "#[\"Rack-1\"].publishMsg(\"Actemp\",value)",
+						"id": "bv46v4"
+					}
+				},
+				{
+					"id": "agtm56",
+					"type": "Slider",
+					"settings": {
+						"caption": "Fan",
+						"color": "green",
+						"showvalue": 1,
+						"min": "1",
+						"max": "5",
+						"step": 1,
+						"sensitivity": 200,
+						"initialvalue": "0",
+						"autovaluesource": "#[\"Rack-1\"][\"shadow\"][\"Acfans\"]",
+						"onStop": "#[\"Rack-1\"].publishMsg(\"Acfans\",value)",
+						"id": "agtm56"
+					}
+				},
+				{
+					"id": "d2knlr",
+					"type": "Button",
+					"settings": {
+						"caption": "OFF/ON",
+						"color": "red",
+						"onClick": "#[\"Rack-1\"].publishMsg(\"AC\",\"ON\")",
+						"id": "d2knlr"
+					}
+				}
+			]
+		},
+		{
+			"id": "3cmdnu",
+			"title": "Door",
+			"width": 1,
+			"row": {
+				"2": 43,
+				"3": 23,
+				"4": 33,
+				"5": 1,
+				"6": 17,
+				"7": 5,
+				"8": 15,
+				"9": 15
+			},
+			"col": {
+				"2": 2,
+				"3": 1,
+				"4": 1,
+				"5": 5,
+				"6": 3,
+				"7": 4,
+				"8": 4,
+				"9": 4
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "v6915o",
+					"type": "Button",
+					"settings": {
+						"caption": "Unlock",
+						"color": "red",
+						"onClick": "#[\"Rack-1\"].publishMsg(\"Relay1\",\"ON\")",
+						"onInitial": "",
+						"id": "v6915o"
+					}
+				}
+			]
+		},
+		{
+			"id": "lebyls",
+			"title": "Power",
+			"width": 1,
+			"row": {
+				"2": 13,
+				"3": 9,
+				"4": 9,
+				"5": 5,
+				"6": 9,
+				"7": 9,
+				"8": 1,
+				"9": 9,
+				"13": 9
+			},
+			"col": {
+				"2": 1,
+				"3": 1,
+				"4": 1,
+				"5": 3,
+				"6": 4,
+				"7": 5,
+				"8": 7,
+				"9": 1,
+				"13": 1
+			},
+			"col_width": 2,
+			"widgets": [
+				{
+					"id": "odhiyz",
+					"type": "Chart",
+					"settings": {
+						"title": "",
+						"datasource": "#[\"Rack-1\"][\"feed\"]",
+						"filter": "V,P",
+						"query_range_duration": "1",
+						"query_range_unit": "minute",
+						"stricttimerange": false,
+						"mode": "continuous",
+						"type": "line",
+						"xaxis": "Time",
+						"yaxis": "",
+						"yzero": true,
+						"marker": true,
+						"colors": "",
+						"totalyaxis": 1,
+						"height_block": 3,
+						"id": "odhiyz"
+					}
+				}
+			]
+		},
+		{
+			"id": "yhhohr",
+			"title": "Power AC",
+			"width": 1,
+			"row": {
+				"5": 13,
+				"6": 17,
+				"7": 13,
+				"8": 13,
+				"10": 13
+			},
+			"col": {
+				"5": 1,
+				"6": 1,
+				"7": 1,
+				"8": 1,
+				"10": 1
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "co70ez",
+					"type": "gauge",
+					"settings": {
+						"title": "Volt",
+						"value": "#[\"Rack-1\"][\"shadow\"][\"V\"]",
+						"units": "V",
+						"min_value": 0,
+						"max_value": 100,
+						"decimal": 0,
+						"human_friendly": true,
+						"rangeonpercent": false,
+						"id": "co70ez"
+					}
+				},
+				{
+					"id": "chfy5n",
+					"type": "gauge",
+					"settings": {
+						"title": "Power",
+						"value": "#[\"Rack-1\"][\"shadow\"][\"P\"]",
+						"units": "Watt",
+						"min_value": 0,
+						"max_value": 100,
+						"decimal": 0,
+						"human_friendly": false,
+						"rangeonpercent": false,
+						"id": "chfy5n"
+					}
+				}
+			]
+		},
+		{
+			"id": "j8juau",
+			"title": "Power AC",
+			"width": 1,
+			"row": {
+				"2": 25,
+				"3": 17,
+				"4": 17,
+				"5": 15,
+				"6": 19,
+				"7": 15,
+				"8": 1,
+				"9": 9,
+				"10": 1,
+				"13": 17
+			},
+			"col": {
+				"2": 2,
+				"3": 2,
+				"4": 1,
+				"5": 2,
+				"6": 2,
+				"7": 2,
+				"8": 2,
+				"10": 2
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "gshvvp",
+					"type": "gauge",
+					"settings": {
+						"title": "HZ",
+						"value": "#[\"Rack-1\"][\"shadow\"][\"f\"]",
+						"units": "hz",
+						"min_value": 0,
+						"max_value": 60,
+						"decimal": 0,
+						"human_friendly": true,
+						"rangeonpercent": false,
+						"id": "gshvvp"
+					}
+				},
+				{
+					"id": "grv07p",
+					"type": "gauge",
+					"settings": {
+						"title": "Amp",
+						"value": "#[\"Rack-1\"][\"shadow\"][\"I\"]",
+						"units": "A",
+						"min_value": 0,
+						"max_value": 100,
+						"decimal": 2,
+						"human_friendly": true,
+						"rangeonpercent": false,
+						"id": "grv07p"
+					}
+				}
+			]
+		},
+		{
+			"id": "vx6znh",
+			"title": "Set Alarm ",
+			"width": 1,
+			"row": {
+				"2": 51,
+				"3": 17,
+				"4": 29,
+				"5": 15,
+				"6": 11,
+				"7": 15,
+				"8": 5,
+				"10": 5
+			},
+			"col": {
+				"2": 1,
+				"3": 1,
+				"4": 1,
+				"5": 5,
+				"6": 3,
+				"7": 3,
+				"8": 3,
+				"10": 3
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "g197zj",
+					"type": "Slider",
+					"settings": {
+						"caption": "Temp",
+						"color": "blue",
+						"showvalue": 1,
+						"min": "20",
+						"max": "60",
+						"step": 1,
+						"sensitivity": 200,
+						"initialvalue": "0",
+						"autovaluesource": "#[\"Rack-1\"][\"shadow\"][\"Settemp\"]",
+						"onStop": "#[\"Rack-1\"].publishMsg(\"temp\",value)",
+						"id": "g197zj"
+					}
+				},
+				{
+					"id": "9krw50",
+					"type": "Slider",
+					"settings": {
+						"caption": "Humi",
+						"color": "green",
+						"showvalue": 1,
+						"min": "20",
+						"max": "100",
+						"step": 1,
+						"sensitivity": 200,
+						"initialvalue": "0",
+						"autovaluesource": "#[\"Rack-1\"][\"shadow\"][\"Sethumi\"]",
+						"onStop": "#[\"Rack-1\"].publishMsg(\"humi\",value)",
+						"id": "9krw50"
+					}
+				}
+			]
+		}
+	],
+	"datasources": [],
+	"columns": 16
+}
