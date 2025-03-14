@@ -63,7 +63,13 @@
 ![อุปกรณ์](https://github.com/user-attachments/assets/eb0876b7-bf8f-49a2-8896-c252368d9884)
 <p>ตำแหน่งการติดตั้งกล่องอุปกรณ์</p>
 
-![IR](https://github.com/user-attachments/assets/3b0ebbb7-375e-4ebc-8ef0-6fe40c84a7c8)
+![IR](https://github.com/user-attachments/assets/3b0ebbb7-375e-4ebc-8ef0-6fe40c84a7c8)    
 <p>ตำแหน่งการติดตั้ง IR Transmitter</p>
 
+# รูปภาพ
+![20240816_114813](https://github.com/user-attachments/assets/5ba868b9-4b81-47a4-81f2-73ffbc6f51b8)
+
+![20241026_162731](https://github.com/user-attachments/assets/49453032-ad37-4b78-b28f-063518afc145)
+
+![20240815_163912_1](https://github.com/user-attachments/assets/e63d1b9e-a454-4045-a184-1e858d4156f1)
 
