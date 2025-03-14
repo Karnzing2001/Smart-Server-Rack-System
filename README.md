@@ -36,3 +36,7 @@
 # Schematic Diagram
 ![Project_schem](https://github.com/user-attachments/assets/b19c138a-f306-4f22-acdc-96816d81695c)
 
+# APC UPS RS-232 Cable Pinout
+![image](https://github.com/user-attachments/assets/1359c07d-0f4e-4f3d-8e48-5b75b44c3b6c)
+<p>การเชื่อมต่อแบบอนุกรม 9 Pin ปกติ TxD อยู่ที่ Pin 3 และ RxD อยู่ที่ Pin 2 พอร์ต RS-232 ของ APC จะวาง TxD ไว้ที่ PIN 1 และ RxD ไว้ที่ PIN 2 จึงไม่สามารถทำให้เราสามารถใช้สาย RS-232 ทั่วไปได้ จะต้องใช้สาย Cable Smart Signalling ของ APC โดยเฉพาะ ดังนั้นจะต้องทำการเข้าสาย RS-232 ใหม่ ตามรูปภาพ</p>
+<p>*รูปภาพจาก [Network UPS Tools (NUT)](https://networkupstools.org/)*</p>
