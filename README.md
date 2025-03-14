@@ -67,7 +67,7 @@
 <p>ตำแหน่งการติดตั้ง IR Transmitter</p>
 
 # รูปภาพ
-![20240816_114813](https://github.com/user-attachments/assets/5ba868b9-4b81-47a4-81f2-73ffbc6f51b8)
+<img src="https://github.com/user-attachments/assets/5ba868b9-4b81-47a4-81f2-73ffbc6f51b8" width="50%">
 
 ![20240814_203102_1](https://github.com/user-attachments/assets/4dabddfb-5814-4e65-9249-ac642bd8980e)
 
