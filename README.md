@@ -72,6 +72,6 @@
 <img src="https://github.com/user-attachments/assets/4dabddfb-5814-4e65-9249-ac642bd8980e" width="50%">
 <p>ด้านในตู้แอร์</p>
 <img src="https://github.com/user-attachments/assets/53092e3b-217b-4d98-86af-acf7a0e28133" width="50%">
-<p>ด้านบนตู้แร็ค</p>
+<p>ด้านในตู้แร็ค</p>
 <img src="https://github.com/user-attachments/assets/e63d1b9e-a454-4045-a184-1e858d4156f1" width="50%">
 <p>ด้านข้างตู้แร้ค</p>
