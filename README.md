@@ -34,7 +34,7 @@
 ![Overall System](https://github.com/user-attachments/assets/6f49f413-cbf9-4dc2-9365-64dc2cd3f69d)
 
 # Schematic Diagram
-![Project_schem](https://github.com/user-attachments/assets/b19c138a-f306-4f22-acdc-96816d81695c)
+<img src=https://github.com/user-attachments/assets/b19c138a-f306-4f22-acdc-96816d81695c width="50%">
 
 # APC UPS RS-232 Cable Pinout
 ![image](https://github.com/user-attachments/assets/1359c07d-0f4e-4f3d-8e48-5b75b44c3b6c)
@@ -67,7 +67,7 @@
 <p>ตำแหน่งการติดตั้ง IR Transmitter</p>
 
 # รูปภาพ
-<<img src="https://github.com/user-attachments/assets/5ba868b9-4b81-47a4-81f2-73ffbc6f51b8" width="50%">
+<img src="https://github.com/user-attachments/assets/5ba868b9-4b81-47a4-81f2-73ffbc6f51b8" width="50%">
 
 <img src="https://github.com/user-attachments/assets/4dabddfb-5814-4e65-9249-ac642bd8980e" width="50%">
 
