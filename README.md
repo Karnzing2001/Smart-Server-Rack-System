@@ -69,7 +69,9 @@
 # รูปภาพ
 ![20240816_114813](https://github.com/user-attachments/assets/5ba868b9-4b81-47a4-81f2-73ffbc6f51b8)
 
-![20241026_162731](https://github.com/user-attachments/assets/49453032-ad37-4b78-b28f-063518afc145)
+![20240814_203102_1](https://github.com/user-attachments/assets/4dabddfb-5814-4e65-9249-ac642bd8980e)
+
 
 ![20240815_163912_1](https://github.com/user-attachments/assets/e63d1b9e-a454-4045-a184-1e858d4156f1)
 
+![20240814_212433_1](https://github.com/user-attachments/assets/53092e3b-217b-4d98-86af-acf7a0e28133)
