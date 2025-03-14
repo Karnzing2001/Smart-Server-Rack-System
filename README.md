@@ -40,3 +40,30 @@
 ![image](https://github.com/user-attachments/assets/1359c07d-0f4e-4f3d-8e48-5b75b44c3b6c)
 <p>การเชื่อมต่อแบบอนุกรม 9 Pin ปกติ TxD อยู่ที่ PIN 3 และ RxD อยู่ที่ PIN 2 พอร์ต RS-232 ของ APC จะวาง TxD ไว้ที่ PIN 1 และ RxD ไว้ที่ PIN 2 จึงไม่สามารถทำให้เราสามารถใช้สาย RS-232 ทั่วไปได้ จะต้องใช้สาย Cable Smart Signalling ของ APC โดยเฉพาะ ดังนั้นจะต้องทำการเข้าสาย RS-232 ใหม่ ตามรูปภาพ</p>
 <p>* รูปภาพจาก [Network UPS Tools (NUT)] (https://networkupstools.org/) * </p>
+
+# Prototype 
+![ด้านหน้า](https://github.com/user-attachments/assets/06780755-61a2-4100-a4b3-aca781fe68ef)
+<p>ต้นแบบตู้ Rack</p>
+
+![ด้านบน](https://github.com/user-attachments/assets/c590e47c-aab4-4909-ab8c-cd69c685124f)
+<p>ตำแหน่งการติดตั้ง Sensor MQ-2 และ DHT22</p>
+
+![กลอนไฟฟ้า](https://github.com/user-attachments/assets/818abd05-5575-41ff-bbb9-64ff5458c842)
+<p>ตำแหน่งติดตั้งกลอนไฟฟ้า</p>
+
+![RFID](https://github.com/user-attachments/assets/cfeeeb71-b73b-4503-b5a4-dad80b3fcf42)
+<p>ตำแหน่งติดตั้ง RFID Module</p>
+
+![แอร์](https://github.com/user-attachments/assets/2dc4319e-f07b-4178-aded-b8302cc9f387)
+<p>ตู้แอร์และอุปกรณ์</p>
+
+![ssr](https://github.com/user-attachments/assets/cbad6ed9-64a1-4f6e-81e0-d1be98217a1f)
+<p>ตำแหน่งติดตั้ง Solid State Relay</p>
+
+![อุปกรณ์](https://github.com/user-attachments/assets/eb0876b7-bf8f-49a2-8896-c252368d9884)
+<p>ตำแหน่งการติดตั้งกล่องอุปกรณ์</p>
+
+![IR](https://github.com/user-attachments/assets/3b0ebbb7-375e-4ebc-8ef0-6fe40c84a7c8)
+<p>ตำแหน่งการติดตั้ง IR Transmitter</p>
+
+
