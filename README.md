@@ -33,6 +33,6 @@
 # ภาพรวมของระบบ
 ![Overall System](https://github.com/user-attachments/assets/6f49f413-cbf9-4dc2-9365-64dc2cd3f69d)
 
-#Schematic Diagram
+# Schematic Diagram
 ![Project_schem](https://github.com/user-attachments/assets/b19c138a-f306-4f22-acdc-96816d81695c)
 
