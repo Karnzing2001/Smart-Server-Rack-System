@@ -60,10 +60,10 @@
   <img src="https://github.com/user-attachments/assets/cbad6ed9-64a1-4f6e-81e0-d1be98217a1f" width="50%">
   <p>ตำแหน่งติดตั้ง Solid State Relay</p>
 
-![อุปกรณ์](https://github.com/user-attachments/assets/eb0876b7-bf8f-49a2-8896-c252368d9884)
+<img src="https://github.com/user-attachments/assets/eb0876b7-bf8f-49a2-8896-c252368d9884" width="50%">
 <p>ตำแหน่งการติดตั้งกล่องอุปกรณ์</p>
 
-![IR](https://github.com/user-attachments/assets/3b0ebbb7-375e-4ebc-8ef0-6fe40c84a7c8)    
+<img src="https://github.com/user-attachments/assets/3b0ebbb7-375e-4ebc-8ef0-6fe40c84a7c8" width="50%">
 <p>ตำแหน่งการติดตั้ง IR Transmitter</p>
 
 # รูปภาพ
