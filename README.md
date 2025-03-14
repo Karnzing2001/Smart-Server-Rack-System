@@ -42,7 +42,6 @@
 <p>* รูปภาพจาก [Network UPS Tools (NUT)] (https://networkupstools.org/) * </p>
 
 # Prototype 
-<p align="center">
   <img src="https://github.com/user-attachments/assets/06780755-61a2-4100-a4b3-aca781fe68ef" width="50%">
   <p>ต้นแบบตู้ Rack</p>
 
